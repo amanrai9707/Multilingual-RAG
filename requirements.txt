@@ -1,0 +1,18 @@
+# Core (tested): needed for conversion, validation, dry run, analysis
+numpy
+scipy
+pandas
+scikit-learn
+openpyxl
+pytesseract
+Pillow
+reportlab        # only for tests/test_tools.py (it generates a test PDF)
+# System packages (Colab):  apt-get install -y poppler-utils tesseract-ocr
+# Real run (NOT RUN here - follow each project's current instructions):
+chromadb
+sentence-transformers
+transformers
+sentencepiece
+torch
+groq
+# IndicTransToolkit: install exactly as the IndicTrans2 model card says

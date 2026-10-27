@@ -1,0 +1,7 @@
+key.csv
+results/
+results_dry/
+kb_store/
+*.key
+.env
+data/clean/*.txt
